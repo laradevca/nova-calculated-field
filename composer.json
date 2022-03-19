@@ -1,5 +1,5 @@
 {
-    "name": "gldrenthe89/nova-calculated-field",
+    "name": "laradevca/nova-calculated-field",
     "description": "A server side calculated field for Laravel Nova",
     "keywords": [
         "laravel",
