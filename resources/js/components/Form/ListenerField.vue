@@ -74,7 +74,7 @@ export default {
       }
     },
 
-    calculateValue: _.debounce(function (force = false) {
+    calculateValue (force = false) {
       this.calculating = true;
 
       Nova.request().post(
@@ -93,7 +93,7 @@ export default {
       }).catch(() => {
         this.calculating = false;
       });
-    }, 500),
+    },
 
     showButton() {
       return false;
