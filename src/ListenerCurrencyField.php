@@ -81,7 +81,7 @@ class ListenerCurrencyField extends Currency
      * Serialize the field to JSON
      * @return array
      */
-    public function jsonSerialize()
+    public function jsonSerialize() : array
     {
         return array_merge([
             'isUpdating' => $this->isUpdating,
